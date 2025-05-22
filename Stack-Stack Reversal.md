@@ -1,5 +1,6 @@
 # # Stack-Stack Reversal Program 🔁
-
+## NAME: Kshira K
+## Reg No: 212224040166
 This Python program demonstrates how to reverse the values in a stack using basic stack operations like push and pop.
 
 ## 🎯 Aim
@@ -21,9 +22,23 @@ To write a Python program that reverses the values in a stack using standard sta
 
 
 ### Program:
-Add Code Here
+```
+stack = []
+n = int(input("Enter number of elements to push: "))
+
+for i in range(n):
+    val = int(input(f"Enter element {i+1}: "))
+    stack.append(val)
+
+reverse = []
+while stack:
+    reverse.append(stack.pop())
+
+print("Reversed stack elements:", reverse)
+```
 
 ## 🧪 Sample Input and Output
+![image](https://github.com/user-attachments/assets/9454e2cd-047c-45f8-a337-20225151bc86)
 
 ## Result
-
+Therefore the given Python Program has been executed successfully and the output has been verified.
