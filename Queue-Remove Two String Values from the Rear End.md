@@ -1,5 +1,6 @@
 # Queue-Remove Two String Values from the Rear End in Python 🧵
-
+## NAME: Kshira K
+## Reg No: 21224040166
 This Python program demonstrates how to manage a list of strings and remove the last two elements (i.e., from the rear of the list).
 
 ## 🎯 Aim
@@ -21,8 +22,24 @@ To write a Python program to:
 6. Display the updated list.
 
 ##  Program:
-Add Code Here
+```
+q = []
+n = int(input("Enter number of strings: "))
+for i in range(n):
+    val = input(f"Enter string {i+1}: ")
+    q.append(val)
+
+if len(q) >= 2:
+    q.pop()
+    q.pop()
+elif len(q) == 1:
+    q.pop()
+
+print("Updated list:", q)
+```
 
 ### Output:
+![image](https://github.com/user-attachments/assets/42de00bf-2287-464f-9792-c906d90d646b)
 
 ## Result:
+Therefore the given Python Program has been executed successfully and the output has been verified.
